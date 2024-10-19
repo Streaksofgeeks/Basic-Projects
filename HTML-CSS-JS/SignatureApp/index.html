@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signature</title>
+  <style>
+    .canvas {
+      border: 2px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="top">
+      <div class="black">
+        <p>Text color picker</p>
+        <input class="form-control" type="color" id="colorpicker" />
+      </div>
+      <div class="black">
+        <p>Background</p>
+        <input claas="form-control" type="color" id="canvascolor" />
+      </div>
+      <div class="black">
+        <p>Font size</p>
+        <select id="fontSize">
+          <option value="5">5px</option>
+          <option value="10">1px</option>
+          <option value="20">20px</option>
+          <option value="30">30px</option>
+          <option value="40">40px</option>
+          <option value="50">50px</option>
+
+      </div>
+
+
+    </div>
+    <canvas class="canvas" id="myCanvas" width="800" height="500"></canvas>
+  </div>
+
+</body>
+
+</html>
