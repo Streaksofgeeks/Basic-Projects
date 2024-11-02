@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #62cff4;
+
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 50px;
+
+
+}
+
+.head {
+  padding: 20px;
+  border: 2px solid #62cff4;
+
+}
+
+.entry {
+  margin: 20px;
+  text-align: center;
+}
+
+.entry input {
+  height: 60px;
+  width: 300px;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border: 4px solid #62cff4;
+}
+
+
+/* CSS */
+#btn {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.wrng {
+  color: blue;
+}
