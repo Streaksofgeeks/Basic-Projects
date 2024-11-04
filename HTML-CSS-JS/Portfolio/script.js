@@ -6,7 +6,7 @@ dayNight.addEventListener("click", () => {
 })
 
 let typingEffect = new Typed("#text", {
-  strings: ["DropXOut", "Designer", "Coder"],
+  strings: ["PURUSHOTTAM", "Designer", "Coder"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 50,
